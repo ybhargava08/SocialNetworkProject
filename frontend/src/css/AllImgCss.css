@@ -1,0 +1,96 @@
+.userIconImage {
+    width: 50px;
+    height: 50px;
+}
+
+.ContactUserImg, .CommentUserImg {
+    width:30px;
+    height:30px;
+    display: inline-block;
+}
+
+.CommentUserImg{
+    float: left;
+    margin: 3% 3% 3% 1.5%;
+}
+
+.PostUserImg{
+    width:50px;
+    height:50px;
+    display: inline-block;
+}
+
+.InputPostUserImg{
+    width:40px;
+    height:40px;
+    display: inline-block;
+    margin: 3% 0 0 1.5%;
+    float: left;
+}
+
+.CommentDisplayUserImg {
+     width:35px;
+     height: 35px;
+     display: inline-block;
+     margin-left:-3%;
+     float:left;
+}
+
+.userIconImage > img, .ContactUserImg > img, .PostUserImg > img, .CommentUserImg > img, 
+  .CommentDisplayUserImg > img, .InputPostUserImg > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.userIconImage > img{
+    margin-top: -80%;
+}
+
+.dropdownimageupload{
+    width: 300px !important;
+    height: 300px !important;
+    padding: 0 !important;
+}
+
+.imageupload{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: white;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.imageupload img {
+    width: 96%;
+    height: 75%;
+    margin: 2%;
+}
+
+.imageupload:hover .imageuploadicon{
+    visibility: visible;
+}
+
+.imageupload .imageuploadicon{
+    width: 96%;
+    background: darkslategray;
+    position: absolute;
+    margin: 0 2%;
+    top: 59%;
+    opacity: 0.8;
+    color: white;
+    visibility: visible;
+    cursor: pointer;
+    padding-left: 2%;
+    height: 20%;
+}
+
+.imageupload .imageuploadicon span{
+    position: absolute;
+    margin: -20% 0 0 20%;
+}
+
+.imageupload button {
+    margin: -2% 4% 2% 2% !important;
+    width: 44%;
+}

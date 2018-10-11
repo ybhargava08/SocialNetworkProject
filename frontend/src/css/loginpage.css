@@ -1,0 +1,53 @@
+.signInput{
+    margin-right: 3% !important;
+    padding: 3.5% !important;
+    width: 40% !important;
+    background: white !important;
+    height: 0 !important;
+    border-radius: 15px !important;
+    position: relative !important;
+    left: -25% !important;
+    color: black !important;
+    border: none !important;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.signInput :focus {
+   border: none !important;
+   outline: none !important;
+}
+
+.signButton{
+    width: 15%;
+    float: right;
+    position: relative;
+    margin: -11.5% 8% 0 0;
+    border-radius: 10px;
+    line-height: 2rem;
+    background-color: #26a69a;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.userSignUp{
+    float: right;
+    margin:0 5% 0 63%;
+    width:25%;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.loginNavBar a{
+    margin-left: 1%;
+}
+
+.signUpErrorMsg{
+    margin: 2% 0 0 70%;
+    color: red;
+    width: 25%;
+}
+
+.signUpErrorMsg span{
+    margin-left: 2%;
+    font-size: 0.9em;
+    font-style: italic;
+}

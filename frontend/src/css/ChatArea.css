@@ -1,0 +1,23 @@
+.chatArea,.chatArea li {
+    background-color:#d5d5d5 !important;
+    color: #6d7993 !important;
+}
+
+.chatArea li {
+    color: #909982;
+    border-bottom: 1px solid #6d7993 !important;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.ChatDateStyle{
+    position:absolute;
+    font-size:0.7em;
+    margin:-0.5% 0 0 1%;
+    color: #6d7993;
+}
+
+.ChatNameStyle{
+    color: #6d7993;
+    font-weight: bold;
+    word-wrap:break-word;
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden !important;
+}
+
+button {
+    background-color: #3366CC !important;
+}
+
+.userform {
+    margin: 10% 0 0 25%;
+}
+
+.generalbutton {
+    margin-top: 2%;
+}
+
+.userListStyle{
+    position: fixed;
+    height: 100%;
+    float:right;
+    right:0;
+    margin:0; 
+    box-shadow: -2px -3px 5px rgba(0, 0, 0,0.3);
+    box-sizing: border-box;
+    width: 16%;
+    margin-top: 4.5%;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.onlineUser{
+    border: none !important;
+    cursor: pointer;
+    background: whitesmoke !important; 
+}
+
+.onlineUserSpan {
+    margin:0 0 0 10%;
+    position:absolute;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+.onlineInd{
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    background-color: #49fb35;
+    margin: 2% 0 0 0;
+    position: relative;
+    float: right;
+}
+
+.onlineIndChatBox {
+    width: 10px;
+    height:10px;
+    border-radius: 50%;
+    margin: 2% 3% 0 0;
+    position: relative;
+    float: left;
+}
+
+.contactsBar{
+    padding: 6%;
+    border-bottom: 1px solid lightgrey;
+    font-weight: bold;
+}
+
+nav .nav-wrapper{
+    background-color: #3366CC !important;
+} 
+
+.nav-item{
+    margin-left:8% !important;
+    margin-top:auto !important;
+    margin-right:auto !important;
+    margin-bottom: auto !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.notification .notificationDiv{
+    margin-top:14%;
+}
+
+.notification i{
+    display: inline;
+    font-size: 1.6em;
+}
+
+.notification .notificationText{
+    position: relative;
+    top: -1.4em;
+    left: -0.5em;
+    width: fit-content;
+    height: fit-content;
+    padding: 2px;
+    background: red;
+    font-size: 0.8em;
+    font-weight: bold;
+}

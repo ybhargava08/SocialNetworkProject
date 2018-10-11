@@ -1,0 +1,32 @@
+.usersearchresult{
+    background:white;
+    z-index:2;
+    border-bottom: 1px solid lightgray;
+    padding:2%;
+    cursor: pointer;
+}
+
+.react-autosuggest__input {
+    margin-bottom: 0 !important;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.userSearchResultImg{
+    width:80px;
+    height: 80px;
+}
+
+.userSearchResultImg > img{
+    width:inherit;
+    height: inherit;
+}
+
+.userSearchResultName {
+    margin:5%;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.userSearchResultStatus{
+    float:right;
+}

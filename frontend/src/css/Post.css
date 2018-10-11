@@ -1,0 +1,68 @@
+.postName {
+    position: relative;
+    font-size: 1.5em;
+    display: block;
+    margin-left: 4.5%;
+    color: #3333CC;
+    font-weight: 500;
+}
+
+.postTime{
+    font-size: 0.8em;
+    font-style: italic;
+    display: block;
+    margin: 5% 0 0 -14%;
+    position: relative;
+}
+
+.post{
+    border: none !important;
+}
+
+.postText{
+    word-wrap: break-word !important;
+}
+
+.post > .collection-item {
+    box-shadow: 2px 2px 5px gray;
+    margin:2%;
+    font-family: Tahoma, sans-serif !important;
+} 
+
+.postinput{
+    margin : 2% !important;
+    background: white;
+    box-shadow: 2px 2px 5px gray;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.postinput .input-field {
+    width:90% !important;
+    margin: -8% 0 0 10% !important;
+}
+
+.showCommentCount {
+    height: fit-content;
+    font-size: 0.9em;
+    border-bottom: 0.7px solid lightgray;
+    text-align: right;
+    padding: 1% 0;
+    color: slategray;
+}
+
+.postImg{
+    width: 100%;
+    height: 50%;
+}
+
+.postUploadMedia{
+    width: fit-content;
+    height: fit-content;
+    padding: 1% 2%;
+    border: 1px solid gray;
+    margin: -1% 0 2% 11%;
+    border-radius: 15px;
+    background: #ECEBEB;
+    cursor: pointer;
+    color: #3333CC;
+}

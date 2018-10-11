@@ -1,0 +1,123 @@
+.singleuserchatboxes,.singleuserchatboxes ul, .singleuserchatboxes li ,.singleuserchatboxes div,.singleuserchatboxes form,
+.singleuserchatboxes input{
+    border:none;
+}
+
+.singleuserchatboxes input{
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.singleuserchatboxes{
+    position:fixed !important;
+    bottom:0 !important;
+    height: 45% !important;
+    right:17%;
+    overflow-x: scroll;
+    display: inline-block;
+    font-family: Tahoma, sans-serif !important;
+}
+
+.singleuserchatboxes > .collection-item{
+    display: inline-block;
+    z-index: 2 !important;
+    height: 100%;
+    width:20em;
+    margin-left:25px;
+    padding: 0 !important;
+    border: 1px solid #e0e0e0 !important;
+    background-color: white !important;
+}
+
+.singleuserchatboxes input {
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+.singleuserchatboxes form {
+    position: absolute;
+    bottom:0;
+    margin-bottom: 0.4em !important;
+}
+
+.singleuserchatboxes .input-field{
+    width: 140% !important;
+}
+
+.singleuserchatheader{
+    background-color:#3366CC;
+    width: 100%;
+    font-size: 1.1em;
+    padding: 2%;
+    color: white;
+}
+
+.singleuserchatheader i {
+    float:right;
+    color: red;
+    cursor: pointer;
+}
+
+.singleuserchatboxes .row{
+    margin-bottom:5px !important;
+}
+
+.singleuserchatboxes > .collection-item > .collection {
+    overflow-y: auto !important;
+    height: 70% !important;
+}
+
+.singleuserchatboxes > .collection-item > .collection > .collection-item{
+    border: none !important;
+}
+
+.singleuserchatboxes #input_2 {
+    height:1.5rem !important;
+}
+
+.offlineIndicator{
+    font-size: 0.9em;
+    margin: 2% 0 -3% 6%;
+    display: inline-block;
+    position: relative;
+    color : #b8b8b8;
+    background-color: white;
+}
+
+.singleUserChatDiv{
+    box-shadow: 1px 1px 3px #888888;
+    width:50%;
+}
+
+.singleUserChatDivChat{
+    font-size:0.8em;
+    margin: 2%;
+    width:100%;
+    word-wrap: break-word;
+    display: block;
+}
+ 
+.singleUserChatDivDate{
+    font-size: 0.6em;
+    margin-left: 2%;
+    width: 100%;
+    word-wrap: break-word;
+    display: block;
+}
+
+.cancelIcon i{
+    color: wheat !important;
+}
+
+.chatul {
+    position: relative;
+    height:67%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatul li{
+    width:96%;
+    margin: 4% 2%;
+}

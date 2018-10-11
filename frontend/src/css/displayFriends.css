@@ -1,0 +1,41 @@
+.userFriends{
+    padding: 1%;
+    width: 60%;
+    height: fit-content;
+    background: white;
+    box-shadow: 2px 2px 5px slategray;
+}
+
+.userFriends > span {
+    padding: 2%;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.userFriends > span > i {
+    margin-right: 4%;
+}
+
+.userFriendsRow{
+    width:100% !important;
+    margin: 0 !important;
+}
+
+.userFriendCol{
+    height: 5vw !important;
+    width: 29%;
+    margin: 2%;
+    padding: 0 !important;
+    display: inline-block;
+}
+
+.userFriendCol img{
+    width:100%;
+    height: 100%;
+}
+
+.userFriendImageText{
+    position: absolute;
+    margin: -4.5% 0 0 1%;
+}
