@@ -16,7 +16,7 @@ const app = express();
 
 const PORT = 5000;
 
-mongoose.connect('mongodb://ds217131.mlab.com:17131/gql-test',{user:'yb08',pass:'E@rth2013',useNewUrlParser:true});
+mongoose.connect('mongodb://<connection string>,useNewUrlParser:true});
 mongoose.connection.on('error',function(err) {
           console.log('mongod db down xx '+err);
           process.exit();
