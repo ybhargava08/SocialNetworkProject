@@ -16,7 +16,7 @@ const app = express();
 
 const PORT = 5000;
 
-mongoose.connect('mongodb://<connection string>,useNewUrlParser:true});
+mongoose.connect('mongodb connection');
 mongoose.connection.on('error',function(err) {
           console.log('mongod db down xx '+err);
           process.exit();
